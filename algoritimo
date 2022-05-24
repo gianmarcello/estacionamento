@@ -1,0 +1,29 @@
+package ex1;
+import java.util.Scanner;
+public class estacionamento {
+	
+	public static void main(String[] args) {
+	int num;
+	try (Scanner ler = new Scanner(System.in)){
+	System.out.println("digite 1 se for gestante, digite 2 se for idoso, digite 3 se for PCD ou digite 0 se NDA");
+	num = ler.nextInt();
+	// receber e ler se ele possui uma dificuldade e qual;					
+	if (num == 1) {
+		System.out.print("voce pode estacionar!!");
+	// se for gestante pode estacionar
+	}
+	else if (num == 2) {
+		System.out.print("voce pode estacionar!!");
+		// se for idoso ele pode estacionar;
+	}
+	else if (num == 3) {
+		System.out.print("voce pode estacionar!!");
+	// se ele for Pessoa Com Deficiencia (PCD) ele pode estacionar ;
+	}
+	else {
+		System.out.print("voce nao pode estacionar!!");
+	// se nao tiver nada voce nao pode estacionar;
+	}
+    }
+	}
+	}
